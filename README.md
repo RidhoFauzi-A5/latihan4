@@ -11,7 +11,7 @@
 
 # Soal Latihan Praktikum ( Pegawai )
 
-![alt text](<Screenshot (62).png>)
+![alt text](image.png)
 
 **Perintah SQL :**
 
@@ -40,7 +40,7 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text](<Screenshot (64).png>)
+![alt text](image-1.png)
 
 ## Tugas Praktikum
 
@@ -52,7 +52,7 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![alt text](<Screenshot (65).png>)
+![alt text](image-2.png)
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
@@ -62,7 +62,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
 
-![alt text](<Screenshot (66).png>)
+![alt text](image-3.png)
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
@@ -72,7 +72,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 
 ***Output :***
 
-![alt text](<Screenshot (67).png>)
+![alt text](image-4.png)
 
 **4. Tampilkan/hitung jumlah baris/record tabel pegawai!**
 
@@ -82,7 +82,7 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 
 ***Output :***
 
-!![alt text](<Screenshot (68).png>)
+![alt text](image-5.png)
 
 **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
@@ -92,7 +92,7 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](<Screenshot (69).png>)
+![alt text](image-6.png)
 
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
@@ -102,7 +102,7 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](<Screenshot (70).png>)
+![alt text](image-7.png)
 
 **7. Tampilkan gaji terkecil!**
 
@@ -112,8 +112,7 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 
 ***Output :***
 
-![alt text](<Screenshot (71).png>)
-
+![alt text](image-8.png)
 **8. Tampilkan gaji terbesar!**
 
 ```
@@ -122,11 +121,11 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 ***Output :***
 
-![alt text](<Screenshot (72).png>)
+![alt text](image-9.png)
 
 # Soal Latihan Praktikum ( Hewan )
 
-![alt text](<Screenshot (73).png>)
+![alt text](image-10.png)
 
 **Perintah SQL :**
 
@@ -153,8 +152,7 @@ INSERT INTO hewan VALUES
 
 ***Output :***
 
-![alt text](<Screenshot (74).png>)
-
+![alt text](image-11.png)
 ## Tugas Praktikum
 
 **1. Tampilkan jumlah hewan yang dimiliki setiap owner.**
@@ -165,7 +163,7 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 
 ***Output :***
 
-![alt text](<Screenshot (75).png>)
+![alt text](image-12.png)
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
@@ -175,7 +173,7 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 
 ***Output :***
 
-![alt text](<Screenshot (76).png>)
+![alt text](image-13.png)
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
@@ -185,7 +183,7 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 
 ***Output :***
 
-![alt text](<Screenshot (77).png>)
+![alt text](image-14.png)
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
@@ -195,7 +193,7 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](<Screenshot (78).png>)
+![alt text](image-15.png)
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
@@ -207,7 +205,7 @@ GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](<Screenshot (79).png>)
+![alt text](image-16.png)
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -217,7 +215,7 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ***Output :***
 
-![alt text](<Screenshot (80).png>)
+![alt text](image-17.png)
 
 ## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
